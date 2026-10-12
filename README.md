@@ -239,7 +239,7 @@ Everything is optional in bridge mode. Frontend settings live in `.env.local`
 | Variable | Effect |
 |---|---|
 | `VITE_BACKEND` | `bridge` (default) or `direct` |
-| `VITE_BRIDGE_URL` | Where to reach the bridge |
+| `VITE_BRIDGE_URL` | Where to reach the bridge (defaults to `wss://jarvis-cs0u.onrender.com`) |
 | `VITE_TTS_ENGINE` | `system` or `kokoro` |
 | `VITE_KOKORO_VOICE` | Voice for the Kokoro engine |
 | `VITE_USE_ELEVENLABS` | Force the ElevenLabs voice on |
